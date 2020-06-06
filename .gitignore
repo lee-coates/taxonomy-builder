@@ -1,4 +1,24 @@
+## Sass
 .sass-cache/
 *.css.map
 *.sass.map
 *.scss.map
+
+## Node and npm
+logs
+*.log
+npm-debug.log*
+node_modules
+.npm
+.node_repl_history
+
+## VSCode
+.settings/
+.vscode/
+
+## Sublime
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
