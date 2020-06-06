@@ -2,9 +2,8 @@
   "name": "taxonomy-builder",
   "version": "1.0.0",
   "description": "HTML5 Drag and Drop Taxonomy Builder to assist in developing classification schemas",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,13 @@
   "bugs": {
     "url": "https://github.com/lee-coates/taxonomy-builder/issues"
   },
-  "homepage": "https://github.com/lee-coates/taxonomy-builder#readme"
+  "homepage": "https://github.com/lee-coates/taxonomy-builder#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  }
 }
