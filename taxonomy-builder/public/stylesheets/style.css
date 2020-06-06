@@ -1,0 +1,24 @@
+body {
+  padding: 40px; }
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: minmax(120px, 10%) auto auto 15%;
+  grid-template-columns: minmax(250px, 1fr);
+  grid-template-areas: "header" "nav" "content" "footer"; }
+
+.main-head {
+  grid-area: header; }
+
+.main-logo {
+  max-height: 40px; }
+
+.logo {
+  width: 150px; }
+
+.main-footer {
+  grid-area: footer;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
